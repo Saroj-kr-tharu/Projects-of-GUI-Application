@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/29 10:48:51.000.857,=C:\Users\Saroj kumar tharu\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/11/29 10:48:52.000.332,=C:\Users\Saroj kumar tharu\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/11/29 10:49:14.000.076,C:\Users\Saroj kumar tharu\Documents\Embarcadero\Studio\Projects\Unit1.h=E:\Programming language\C++ builder projects GUI c++ programs\07 Calculator\Unit1.h</Transaction>
+    <Transaction>2021/11/29 10:49:14.000.076,C:\Users\Saroj kumar tharu\Documents\Embarcadero\Studio\Projects\Unit1.dfm=E:\Programming language\C++ builder projects GUI c++ programs\07 Calculator\Unit1.dfm</Transaction>
+    <Transaction>2021/11/29 10:49:14.000.076,C:\Users\Saroj kumar tharu\Documents\Embarcadero\Studio\Projects\Unit1.cpp=E:\Programming language\C++ builder projects GUI c++ programs\07 Calculator\Unit1.cpp</Transaction>
+    <Transaction>2021/11/29 10:49:16.000.659,C:\Users\Saroj kumar tharu\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=E:\Programming language\C++ builder projects GUI c++ programs\07 Calculator\Project1PCH1.h</Transaction>
+    <Transaction>2021/11/29 10:49:19.000.144,C:\Users\Saroj kumar tharu\Documents\Embarcadero\Studio\Projects\Project1.cbproj=E:\Programming language\C++ builder projects GUI c++ programs\07 Calculator\Project1.cbproj</Transaction>
+    <Transaction>2021/11/29 10:49:39.000.390,E:\Programming language\C++ builder projects GUI c++ programs\07 Calculator\Project1.cbproj=E:\Programming language\C++ builder projects GUI c++ programs\07 Calculator\Calculator.cbproj</Transaction>
+    <Transaction>2021/11/29 10:49:39.000.383,E:\Programming language\C++ builder projects GUI c++ programs\07 Calculator\Project1PCH1.h=E:\Programming language\C++ builder projects GUI c++ programs\07 Calculator\CalculatorPCH1.h</Transaction>
+  </Transactions>
+</BorlandProject>

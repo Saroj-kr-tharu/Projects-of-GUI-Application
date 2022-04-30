@@ -1,0 +1,19 @@
+7= BitBtn1
+8= BitBtn2
+9= BitBtn4
+÷= Bitbtn3
+X= Bitbtn7
+6= Bitbtn8
+5= Bitbtn6
+4= Bitbtn5
+-= Bitbtn11
+3= Bitbtn12
+2= Bitbtn10
+1= Bitbtn9
+= = Bitbtn15
++= Bitbtn16
+.= Bitbtn14
+c= BItBtn17
+0 = Bitbtn13
+
+lblOutput = output

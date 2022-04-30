@@ -1,0 +1,175 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Calculator'
+  ClientHeight = 454
+  ClientWidth = 456
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -21
+  Font.Name = 'Times New Roman'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 23
+  object edtOutput: TEdit
+    Left = 24
+    Top = 24
+    Width = 407
+    Height = 81
+    TabOrder = 0
+  end
+  object BitBtn1: TBitBtn
+    Left = 8
+    Top = 117
+    Width = 81
+    Height = 57
+    Caption = '7'
+    TabOrder = 1
+  end
+  object BitBtn2: TBitBtn
+    Left = 120
+    Top = 117
+    Width = 81
+    Height = 57
+    Caption = '8'
+    TabOrder = 2
+  end
+  object BitBtn3: TBitBtn
+    Left = 342
+    Top = 117
+    Width = 81
+    Height = 57
+    Caption = #247
+    TabOrder = 3
+  end
+  object BitBtn4: TBitBtn
+    Left = 227
+    Top = 117
+    Width = 81
+    Height = 57
+    Caption = '9'
+    TabOrder = 4
+  end
+  object BitBtn5: TBitBtn
+    Left = 8
+    Top = 197
+    Width = 81
+    Height = 57
+    Caption = '4'
+    TabOrder = 5
+  end
+  object BitBtn6: TBitBtn
+    Left = 120
+    Top = 197
+    Width = 81
+    Height = 57
+    Caption = '5'
+    TabOrder = 6
+  end
+  object BitBtn7: TBitBtn
+    Left = 342
+    Top = 197
+    Width = 81
+    Height = 57
+    Caption = 'X'
+    TabOrder = 7
+  end
+  object BitBtn8: TBitBtn
+    Left = 227
+    Top = 197
+    Width = 81
+    Height = 57
+    Caption = '6'
+    TabOrder = 8
+  end
+  object BitBtn9: TBitBtn
+    Left = 8
+    Top = 285
+    Width = 81
+    Height = 57
+    Caption = '1'
+    TabOrder = 9
+  end
+  object BitBtn10: TBitBtn
+    Left = 120
+    Top = 285
+    Width = 81
+    Height = 57
+    Caption = '2'
+    TabOrder = 10
+  end
+  object BitBtn11: TBitBtn
+    Left = 342
+    Top = 282
+    Width = 81
+    Height = 57
+    Caption = '-'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -29
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 11
+  end
+  object BitBtn12: TBitBtn
+    Left = 227
+    Top = 285
+    Width = 81
+    Height = 57
+    Caption = '3'
+    TabOrder = 12
+  end
+  object BitBtn13: TBitBtn
+    Left = 8
+    Top = 365
+    Width = 81
+    Height = 57
+    Caption = '0'
+    TabOrder = 13
+  end
+  object BitBtn14: TBitBtn
+    Left = 120
+    Top = 365
+    Width = 81
+    Height = 57
+    Caption = '.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 14
+  end
+  object BitBtn15: TBitBtn
+    Left = 342
+    Top = 360
+    Width = 81
+    Height = 57
+    Caption = '='
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -35
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 15
+  end
+  object BitBtn16: TBitBtn
+    Left = 227
+    Top = 360
+    Width = 81
+    Height = 57
+    Caption = '+'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -37
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 16
+  end
+end

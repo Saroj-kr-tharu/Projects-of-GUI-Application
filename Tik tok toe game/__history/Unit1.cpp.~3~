@@ -1,0 +1,225 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+
+TForm1 *Form1;
+int choice;
+
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button10Click(TObject *Sender)
+{
+			Button1->Caption=" ";
+			Button2->Caption=" ";
+			Button3->Caption=" ";
+			Button4->Caption=" ";
+			Button5->Caption=" ";
+			Button6->Caption=" ";
+			Button7->Caption=" ";
+			Button8->Caption=" ";
+			Button9->Caption=" ";
+			lblWinner->Caption=" ";
+}
+//---------------------------------------------------------------------------
+
+void logic(){
+}
+void __fastcall TForm1::Button11Click(TObject *Sender)
+{
+        exit(0);
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+    if(choice==1){
+			Button1->Caption="X";
+		  //	logic();
+		}
+		else{
+			  Button1->Caption="O";
+		}
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button2Click(TObject *Sender)
+{
+    if(choice==1){
+			Button2->Caption="X";
+		}
+		else{
+			  Button2->Caption="O";
+		}
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+    if(choice==1){
+			Button3->Caption="X";
+		}
+		else{
+			  Button3->Caption="O";
+		}
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button4Click(TObject *Sender)
+{
+    if(choice==1){
+			Button4->Caption="X";
+		}
+		else{
+			  Button4->Caption="O";
+		}
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button5Click(TObject *Sender)
+{
+        if(choice==1){
+			Button5->Caption="X";
+		}
+		else{
+			  Button5->Caption="O";
+		}
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button6Click(TObject *Sender)
+{
+    if(choice==1){
+			Button6->Caption="X";
+		}
+		else{
+			  Button6->Caption="O";
+		}
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button7Click(TObject *Sender)
+{
+    if(choice==1){
+			Button7->Caption="X";
+		}
+		else{
+			  Button7->Caption="O";
+		}
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button8Click(TObject *Sender)
+{
+        if(choice==1){
+			Button8->Caption="X";
+		}
+		else{
+			  Button8->Caption="O";
+		}
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button9Click(TObject *Sender)
+{
+    if(choice==1){
+			Button9->Caption="X";
+		}
+		else{
+			  Button9->Caption="O";
+		}
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::TimerTimer(TObject *Sender)
+{
+		 // lblWinner->Caption="check";
+	if( Button1->Caption=="X" && Button2->Caption=="X" && Button3->Caption=="X" )
+		{
+			lblWinner->Caption="Player 1 Winner";
+		}
+
+
+else if(  Button4->Caption=="X" && Button5->Caption=="X" && Button6->Caption=="X")
+	{
+		  lblWinner->Caption="Player 1 Winner";
+	}
+else if(  Button7->Caption=="X" && Button8->Caption=="X" && Button9->Caption=="X")
+	{
+		 lblWinner->Caption="Player 1 Winner";
+	}
+else if(  Button1->Caption=="X" && Button4->Caption=="X" && Button7->Caption=="X")
+	{
+			lblWinner->Caption="Player 1 Winner";
+	}
+else if(  Button2->Caption=="X" && Button5->Caption=="X" && Button8->Caption=="X")
+	{
+			lblWinner->Caption="Player 1 Winner";
+	}
+else if(  Button3->Caption=="X" && Button6->Caption=="X" && Button9->Caption=="X")
+	{
+			lblWinner->Caption="Player 1 Winner";
+	}
+else if(  Button1->Caption=="X" && Button5->Caption=="X" && Button9->Caption=="X")
+	{
+			lblWinner->Caption="Player 1 Winner";
+	}
+else if(  Button3->Caption=="X" && Button5->Caption=="X" && Button7->Caption=="X")
+	{
+			lblWinner->Caption="Player 2 Winner";
+	}
+else{
+	lblWinner->Caption="Game Draw";
+}
+
+
+	if( Button1->Caption=="X" && Button2->Caption=="X" && Button3->Caption=="X" )
+		{
+			lblWinner->Caption="Player 1 Winner";
+		}
+
+
+else if(  Button4->Caption=="O" && Button5->Caption=="O" && Button6->Caption=="O")
+	{
+		  lblWinner->Caption="Player 2 Winner";
+	}
+else if(  Button7->Caption=="O" && Button8->Caption=="O" && Button9->Caption=="O")
+	{
+		 lblWinner->Caption="Player 2 Winner";
+	}
+else if(  Button1->Caption=="O" && Button4->Caption=="O" && Button7->Caption=="O")
+	{
+			lblWinner->Caption="Player 2 Winner";
+	}
+else if(  Button2->Caption=="O" && Button5->Caption=="O" && Button8->Caption=="O")
+	{
+			lblWinner->Caption="Player 2 Winner";
+	}
+else if(  Button3->Caption=="O" && Button6->Caption=="O" && Button9->Caption=="O")
+	{
+			lblWinner->Caption="Player 2 Winner";
+	}
+else if(  Button1->Caption=="O" && Button5->Caption=="O" && Button9->Caption=="O")
+	{
+			lblWinner->Caption="Player 2 Winner";
+	}
+else if(  Button3->Caption=="O" && Button5->Caption=="O" && Button7->Caption=="O")
+	{
+			lblWinner->Caption="Player 2 Winner";
+	}
+else{
+	lblWinner->Caption="Game Draw";
+}
+
+}
+//---------------------------------------------------------------------------
+
